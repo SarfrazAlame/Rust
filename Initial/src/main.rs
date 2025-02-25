@@ -103,7 +103,7 @@
 //     Rect::print_something(10);
 // }
 
-// ///////////////////////////////////////enum
+// //////////////////////////////////////////////////////////enum
 // enum Direction {
 //     North,
 //     South,
@@ -148,16 +148,40 @@
 //     }
 // }
 
-
 // //////////////////////////////////////////////////////////////////////////////////// reading file
 
-use std::fs;
+// use std::fs;
 
-fn main(){
-    let contents = fs::read_to_string("a.txt");
+// fn main(){
+//     let contents = fs::read_to_string("a.txt");
 
-    match contents {
-        Ok(contents)=>println!("{}", contents),
-        Err(e)=>println!("Error while reading file")
+//     match contents {
+//         Ok(contents)=>println!("{}", contents),
+//         Err(e)=>println!("Error while reading file")
+//     }
+// }
+
+enum Option1 {
+    Some(u32),
+    None,
+}
+
+fn main() {
+    let ans = find_first_a(String::from("dlkglfglkdj"));
+
+    match ans {
+       None => print!("value not found"),
+       Some(val) => print!("a found at index {}", val),
     }
+}
+
+fn find_first_a(str: String) -> Option<u32> {
+    let mut index = 0;
+    for c in str.chars() {
+        if c == 'a' {
+            return Some(index);
+        }
+        index = index + 1;
+    }
+    None
 }
