@@ -1,22 +1,22 @@
 
-// #[derive(Debug)]
-// struct User {
-//     username:String,
-//     password:String,
-//     age:u32
-// }
+#[derive(Debug)]
+struct User {
+    username:String,
+    password:String,
+    age:u32
+}
  
 
-// fn main(){
-//     let u = User{
-//         username:String::from("Sarfraz"),
-//         password:String::from("Sarfraz"),
-//         age:21
-//     };
+fn main(){
+    let u = User{
+        username:String::from("Sarfraz"),
+        password:String::from("Sarfraz"),
+        age:21
+    };
 
-//     print!("{:?}", u); //debug
-//     // print!("{}", u); // display
-// }
+    print!("{:?}", u); //debug
+    // print!("{}", u); // display
+}
 
 
 //////////////////////////////////////////////////manual
