@@ -1,18 +1,29 @@
-// fn main() {
-//     let x = 12;
-//     let name = String::from("Sarfraz Alam");
-//     println!("{} {}", x, name);
-// }
 
-fn main(){
-    let name = String::from("Sarfraz Alam");
-    let x = get_len(name);
+use serde::{Serialize,Deserialize};
 
-    println!("{}", x)
+#[derive(Serialize, Deserialize)]
+
+struct User {
+    username:String,
+    password:String
 }
 
-fn get_len(str:String)->u32{
-    return str.len();
+fn main() {
+    let u = User{
+        username:String::from("Sarfraz"),
+        password:String::from("!23123"),
+    };
+
+    let serialized_string = serde_json::to_string(&u);
+
+    // let user_string = serialized_string.unwrap();    
+
+    print!("{}", user_string)
+
+    // match serialized_string {
+    //     Ok(str)=>print!("{}", str),
+    //     Err(_) => print!("Error while converting to string")
+    // }
+
 }
 
- 
