@@ -185,23 +185,49 @@
 // 	  }
 // }
 
-use std::fmt;
-struct Rect {
-	width: u32,
-	height: u32
+// use std::fmt;
+// struct Rect {
+// 	width: u32,
+// 	height: u32
+// }
+
+// impl std::fmt::Display for Rect {
+//     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+//         write!(f, "({}, {})", self.width, self.height)
+//     }
+// }
+
+// fn main() {
+//     let s = Rect {
+//         width: 100,
+//         height: 100
+//     };
+//     println!("{}", s);    
+// }
+
+
+// //////////////////////////////////////////////////////  Serde in rust
+
+use serde::{Serialize, Deserialize};
+use serde_json::{self, value};
+
+#[derive(Serialize, Deserialize, Debug)];
+struct Person{
+    name:String,
+    age:u32,
 }
 
-impl std::fmt::Display for Rect {
-    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        write!(f, "({}, {})", self.width, self.height)
-    }
-}
-
-fn main() {
-    let s = Rect {
-        width: 100,
-        height: 100
+fn main(){
+    let person = Person{
+        name:String::from("Sarfraz Alam"),
+        age:22
     };
-    println!("{}", s);    
-}
 
+    // Serialize to JSON
+    let json_str = serde_json::to_string(&person).unwrap();
+    println!("Serialized JSON: {}", json_str);
+
+    // Deserialize from JSON
+    let deserialized_person = serde_json::from_str(&json_str).unwrap();
+    println!("Deserialized person: {:?}", deserialized_person);
+}
