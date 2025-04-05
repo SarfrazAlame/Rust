@@ -1,0 +1,11 @@
+C:\Users\Sarfaraj\OneDrive\Desktop\Rust\borse\target\debug\deps\libborsh-6954b9a9903e1426.rmeta: C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\lib.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\de\mod.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\de\hint.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\ser\mod.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\ser\helpers.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\error.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\../docs/rustdoc_include/borsh_crate_top_level.md
+
+C:\Users\Sarfaraj\OneDrive\Desktop\Rust\borse\target\debug\deps\borsh-6954b9a9903e1426.d: C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\lib.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\de\mod.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\de\hint.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\ser\mod.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\ser\helpers.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\error.rs C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\../docs/rustdoc_include/borsh_crate_top_level.md
+
+C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\lib.rs:
+C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\de\mod.rs:
+C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\de\hint.rs:
+C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\ser\mod.rs:
+C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\ser\helpers.rs:
+C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\error.rs:
+C:\Users\Sarfaraj\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-1.5.7\src\../docs/rustdoc_include/borsh_crate_top_level.md:
